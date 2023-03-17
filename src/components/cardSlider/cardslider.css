@@ -1,0 +1,43 @@
+.movieCard{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    position: relative;
+    padding: 2rem 0;
+}
+.movieCard h1{
+    margin-left: 48px;
+}
+.movieCard .wrapper{
+   display: flex;
+}
+.wrapper .card{
+    display: flex;
+    width: max-content;
+    gap: 1rem;
+    transition: .3s ease-in-out;
+    margin-left: 48px;
+}
+.slider-action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 20;
+    height: 100%;
+    top: 0;
+    width: 50px;
+    transition: .3s ease-in-out;
+}
+.slider-action svg{
+    font-size: 2rem;
+}
+.wrapper .left{
+    left: 0;
+}
+.wrapper .right{
+    right: 0;
+}
+.wrapper .none{
+    display: none;
+}

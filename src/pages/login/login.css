@@ -1,0 +1,17 @@
+
+.form-login{
+    display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     font-size: 1.5rem;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    row-gap: 2rem;
+}
+form button{
+    padding: .8rem;
+}

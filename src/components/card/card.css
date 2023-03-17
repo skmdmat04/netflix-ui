@@ -1,0 +1,59 @@
+.movie-card{
+    width: 235px;
+    height: 100%;
+    cursor: pointer;
+    position: relative;
+}
+.movie-card img{
+    border-radius: .3rem;
+    width: 100%;
+    height: 100%; 
+    z-index: 5;
+}
+.movie-card .hover{
+    z-index: 10;
+    height: max-content;
+    width: 14rem;
+    position: absolute;
+    top: -15vh;
+    left: 0;
+    border-radius: .3rem;
+    /* box-shadow: rgba(0,0,0,0.75) 0 3px 10px; */
+    background-color: #181818;
+    transition: .3s ease-in-out;
+}
+.image-video-container{
+    position: relative;
+    height: 140px;
+}
+/* .image-video-container img{
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    border-radius: .3rem;
+    top: 0;
+    z-index: 4;
+    position: absolute;
+} */
+.info-video{
+    display: flex;
+    flex-direction: column;
+padding: 1rem;
+gap: .5rem;
+}
+.info-video .icons{
+    display: flex;
+    justify-content: space-between;
+}
+.info-video .icons .controls{
+display: flex;
+gap: 1rem;
+}
+.icons svg{
+    font-size: 2rem;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+.icons svg :hover{
+    color: #b8b8b8;
+}

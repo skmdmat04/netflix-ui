@@ -1,0 +1,81 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+    height: 6rem;
+    transition: 0.3s ease-in-out;
+}
+nav .left{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+nav .left .brand{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.brand img{
+    height: 4rem;
+    width: fit-content;
+}
+.links{
+    display: flex;
+    list-style-type:none;
+    gap: 2rem;
+}
+.links li a{
+color: white;
+text-decoration: none;
+}
+.right{
+   display: flex; 
+   align-items: center;
+   gap: 1rem;
+}
+.right button{
+    background-color: transparent;
+    border: none;
+    cursor: ponter;
+}
+.right button:focus{
+    outline: none;
+}
+.right button svg{
+   color: #f34242; 
+   font-size: 1.2rem;
+}
+.search{
+    display: flex;
+    gap: 1.2rem;
+    align-items: center;
+    justify-content: center;
+    padding-left: .5rem;
+}
+.search input{
+    width: 0;
+    opacity: 0;
+    visibility: hidden;
+   background-color: transparent; 
+   transition: .3s ease-in-out; 
+   border: none;
+color: white;
+}
+.search input:focus{
+    outline: none;
+}
+.showSearch{
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.showSearch input{
+    width: 100%;
+    opacity: 1;
+    visibility: visible;
+    color: white;
+}
+
