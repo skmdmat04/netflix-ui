@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const url='https://netflix-api-vf7c.onrender.com/';
+const url='https://netflix-api-vf7c.onrender.com';
 
 export const createUser=async(details)=>{
     return await axios.post(`${url}/user`,details)
